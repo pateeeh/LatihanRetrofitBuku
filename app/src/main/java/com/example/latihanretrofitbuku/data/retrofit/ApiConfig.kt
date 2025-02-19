@@ -16,7 +16,7 @@ class ApiConfig {
                 .build()
 
             val retrofit = Retrofit.Builder()
-                .baseUrl("https://bukuacak-9bdcb4ef2605.herokuapp.com/")
+                .baseUrl("http://10.0.2.2/api_perpus/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build()

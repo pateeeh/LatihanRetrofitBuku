@@ -4,6 +4,6 @@ import com.google.gson.annotations.SerializedName
 
 data class ListBukuResponse(
 
-	@field:SerializedName("books")
-	val books: List<BooksItem>
+	@field:SerializedName("buku")
+	val buku: List<BukuItem>
 )
